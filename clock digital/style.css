@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url("snow.jpg");
+    background-position: center center;
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.text-primary{
+    text-transform: uppercase;
+    color: #CF000F;
+    font-size: 4rem;
+    text-shadow: 0px 5px 5px rgba(0,0,0,0.5);
+    margin-bottom: 4rem;
+    text-align: center;
+}
+.countdown{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text-center{
+    text-align: center;
+}
+.big-text{
+    font-size: 6rem;
+    color: #fff;
+    margin: 0 2rem;
+}
+span {
+    font-size: 1.5rem;
+}
